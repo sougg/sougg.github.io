@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Jimmy Song</title>
-    <link>http://sougg.github.io/categories/</link>
-    <description>Recent content in Categories on Jimmy Song</description>
+    <title>Categories on Felix Wang</title>
+    <link>http://www.felixwang.io/categories/</link>
+    <description>Recent content in Categories on Felix Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     
-	<atom:link href="http://sougg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.felixwang.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cloud Native</title>
-      <link>http://sougg.github.io/categories/cloud-native/</link>
+      <link>http://www.felixwang.io/categories/cloud-native/</link>
       <pubDate>Sat, 08 Sep 2018 23:35:50 +0800</pubDate>
       
-      <guid>http://sougg.github.io/categories/cloud-native/</guid>
+      <guid>http://www.felixwang.io/categories/cloud-native/</guid>
       <description></description>
     </item>
     

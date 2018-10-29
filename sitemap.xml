@@ -3,41 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://sougg.github.io/posts/helloworld/</loc>
+    <loc>http://www.felixwang.io/posts/helloworld/</loc>
     <lastmod>2018-09-08T23:35:50+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sougg.github.io/categories/</loc>
+    <loc>http://www.felixwang.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://sougg.github.io/categories/cloud-native/</loc>
-    <lastmod>2018-09-08T23:35:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://sougg.github.io/tags/hello-world/</loc>
+    <loc>http://www.felixwang.io/categories/cloud-native/</loc>
     <lastmod>2018-09-08T23:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://sougg.github.io/</loc>
+    <loc>http://www.felixwang.io/</loc>
     <lastmod>2018-09-08T23:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://sougg.github.io/posts/</loc>
+    <loc>http://www.felixwang.io/tags/hello-world/</loc>
     <lastmod>2018-09-08T23:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://sougg.github.io/tags/</loc>
+    <loc>http://www.felixwang.io/posts/</loc>
+    <lastmod>2018-09-08T23:35:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.felixwang.io/tags/</loc>
     <lastmod>2018-09-08T23:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>

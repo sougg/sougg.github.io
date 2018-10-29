@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cloud Native on Jimmy Song</title>
-    <link>http://sougg.github.io/categories/cloud-native/</link>
-    <description>Recent content in Cloud Native on Jimmy Song</description>
+    <title>Cloud Native on Felix Wang</title>
+    <link>http://www.felixwang.io/categories/cloud-native/</link>
+    <description>Recent content in Cloud Native on Felix Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 08 Sep 2018 23:35:50 +0800</lastBuildDate>
     
-	<atom:link href="http://sougg.github.io/categories/cloud-native/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.felixwang.io/categories/cloud-native/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>http://sougg.github.io/posts/helloworld/</link>
+      <link>http://www.felixwang.io/posts/helloworld/</link>
       <pubDate>Sat, 08 Sep 2018 23:35:50 +0800</pubDate>
       
-      <guid>http://sougg.github.io/posts/helloworld/</guid>
+      <guid>http://www.felixwang.io/posts/helloworld/</guid>
       <description>hello world！</description>
     </item>
     
