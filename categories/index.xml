@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Felix Wang</title>
+    <title>Categories on Felix Wang</title>
     <link>https://www.felixwang.io/categories/</link>
-    <description>Recent content on Felix Wang</description>
+    <description>Recent content in Categories on Felix Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 08 Sep 2018 23:35:50 +0800</lastBuildDate>
@@ -12,13 +12,14 @@
     
     
     <item>
-      <title>Hello World</title>
-      <link>https://www.felixwang.io/posts/helloworld/</link>
+      <title></title>
+      <link>https://www.felixwang.io/categories/</link>
       <pubDate>Sat, 08 Sep 2018 23:35:50 +0800</pubDate>
       
-      <guid>https://www.felixwang.io/posts/helloworld/</guid>
-      <description>hello world！</description>
+      <guid>https://www.felixwang.io/categories/</guid>
+      <description></description>
     </item>
     
   </channel>
+</rss>l>
 </rss>
