@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>leetcode系列#1 Two Sum</title>
-      <link>https://www.felixwang.io/posts/algorithm-leetcode-q1-two-sum/</link>
+      <title>leetcode系列1 #1 Two Sum</title>
+      <link>https://www.felixwang.io/posts/algorithm-leetcode-1-q1-two-sum/</link>
       <pubDate>Thu, 28 Mar 2019 01:43:20 +0800</pubDate>
       
-      <guid>https://www.felixwang.io/posts/algorithm-leetcode-q1-two-sum/</guid>
+      <guid>https://www.felixwang.io/posts/algorithm-leetcode-1-q1-two-sum/</guid>
       <description>这是一个新的系列，主要记录一些自己在leetcode上的刷题记录，个人水平有限，难度先从easy开始 leetcode问题链接 #1. Two Sum CATEGORY:EASY Given an array of</description>
     </item>
     

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algorithm on Felix Wang</title>
-    <link>https://www.felixwang.io/categories/algorithm/</link>
-    <description>Recent content in Algorithm on Felix Wang</description>
+    <title>Integer on Felix Wang</title>
+    <link>https://www.felixwang.io/tags/integer/</link>
+    <description>Recent content in Integer on Felix Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 30 Mar 2019 02:25:20 +0800</lastBuildDate>
     
-	<atom:link href="https://www.felixwang.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.felixwang.io/tags/integer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://www.felixwang.io/posts/algorithm-leetcode-2-q7-reverse-integer/</guid>
       <description>这是一个新的系列，主要记录一些自己在leetcode上的刷题记录，个人水平有限，难度先从easy开始 leetcode问题链接 #1. Reverse Integer CATEGORY:EASY Given a 32-bit signed</description>
-    </item>
-    
-    <item>
-      <title>leetcode系列1 #1 Two Sum</title>
-      <link>https://www.felixwang.io/posts/algorithm-leetcode-1-q1-two-sum/</link>
-      <pubDate>Thu, 28 Mar 2019 01:43:20 +0800</pubDate>
-      
-      <guid>https://www.felixwang.io/posts/algorithm-leetcode-1-q1-two-sum/</guid>
-      <description>这是一个新的系列，主要记录一些自己在leetcode上的刷题记录，个人水平有限，难度先从easy开始 leetcode问题链接 #1. Two Sum CATEGORY:EASY Given an array of</description>
     </item>
     
   </channel>
