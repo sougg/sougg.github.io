@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Felix Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 30 Mar 2019 02:25:20 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2019 17:25:20 +0800</lastBuildDate>
     
 	<atom:link href="https://www.felixwang.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Algorithm</title>
       <link>https://www.felixwang.io/tags/algorithm/</link>
-      <pubDate>Sat, 30 Mar 2019 02:25:20 +0800</pubDate>
+      <pubDate>Mon, 29 Apr 2019 17:25:20 +0800</pubDate>
       
       <guid>https://www.felixwang.io/tags/algorithm/</guid>
       <description></description>
@@ -50,7 +50,7 @@
     <item>
       <title>Leetcode</title>
       <link>https://www.felixwang.io/tags/leetcode/</link>
-      <pubDate>Sat, 30 Mar 2019 02:25:20 +0800</pubDate>
+      <pubDate>Mon, 29 Apr 2019 17:25:20 +0800</pubDate>
       
       <guid>https://www.felixwang.io/tags/leetcode/</guid>
       <description></description>
@@ -62,6 +62,24 @@
       <pubDate>Sat, 30 Mar 2019 02:25:20 +0800</pubDate>
       
       <guid>https://www.felixwang.io/tags/overflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Palindrome</title>
+      <link>https://www.felixwang.io/tags/palindrome/</link>
+      <pubDate>Mon, 29 Apr 2019 17:25:20 +0800</pubDate>
+      
+      <guid>https://www.felixwang.io/tags/palindrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revert</title>
+      <link>https://www.felixwang.io/tags/revert/</link>
+      <pubDate>Mon, 29 Apr 2019 17:25:20 +0800</pubDate>
+      
+      <guid>https://www.felixwang.io/tags/revert/</guid>
       <description></description>
     </item>
     

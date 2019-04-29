@@ -5,21 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title> Algorithm - 王呈飞的博客|a new developer|felixwang.io</title>
+  <title> leetcode系列3 q9 Palindrome Number - 王呈飞的博客|a new developer|felixwang.io</title>
   <meta name="description" content="王呈飞的博客|a new developer|felixwang.io" />
-  <meta property="og:title" content="Algorithm" />
-  <meta name="twitter:title" content="Algorithm" />
+  <meta property="og:title" content="leetcode系列3 q9 Palindrome Number" />
+  <meta name="twitter:title" content="leetcode系列3 q9 Palindrome Number" />
+  <meta name="description" content="这是一个leetcode系列第二篇，翻转int数字">
+  <meta property="og:description" content="这是一个leetcode系列第二篇，翻转int数字">
+  <meta name="twitter:description" content="这是一个leetcode系列第二篇，翻转int数字">
   <meta name="author" content="Felix Wang(王呈飞)"/>
   <link href='https://res.cloudinary.com/dfynefyys/image/upload/v1539523433/personal%20website/logo/logoko.png' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://res.cloudinary.com/dfynefyys/image/upload/v1539619299/personal%20website/bigimg/%E4%B8%AA%E4%BA%BA%E5%9B%BE%E7%89%87.jpg" />
   <meta name="twitter:image" content="https://res.cloudinary.com/dfynefyys/image/upload/v1539619299/personal%20website/bigimg/%E4%B8%AA%E4%BA%BA%E5%9B%BE%E7%89%87.jpg" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://www.felixwang.io/tags/algorithm/" />
+  <meta property="og:url" content="https://www.felixwang.io/posts/algorithm-leetcode-3-q9-palindrome-number/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Felix Wang" />
 
   <meta name="generator" content="Hugo 0.48" />
-  <link rel="canonical" href="https://www.felixwang.io/tags/algorithm/" />
+  <link rel="canonical" href="https://www.felixwang.io/posts/algorithm-leetcode-3-q9-palindrome-number/" />
   <link rel="alternate" href="https://www.felixwang.io/index.xml" type="application/rss+xml" title="Felix Wang">
   <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/jquery-1.12.4.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
@@ -279,14 +282,71 @@ autocomplete('#aa-search-input',
 
 
     
-  <header class="header-section ">
+  
+  
+  
+
+
+
+
+  
+    <div id="header-big-imgs" data-num-img=1 data-img-src-1="https://res.cloudinary.com/dfynefyys/image/upload/v1553708995/personal%20website/leetcode/1-two-sum.png" data-img-desc-1="Nanjing China|Mar 28,2019"></div>
+  
+
+  <header class="header-section has-img">
+    
+      <div class="intro-header big-img">
+        
+        
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-md-offset-0">
+                
+                <div class="post-heading">
+                
+                  
+                     <h1>leetcode系列3 q9 Palindrome Number</h1>
+                     
+                     
+                  
+                  
+                  
+                    
+                      <hr class="small">
+                      <span class="post-subheading">作者：王呈飞</span>
+                    
+                  
+                  
+                    <span class="post-meta">
+  
+  Posted on April 29, 2019
+  
+  
+</span>
+
+
+                  
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="img-desc" style="display: inline;"></span>
+      </div>
+    
     <div class="intro-header no-img">
+      
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-md-offset-0">
-            <div class="page-heading">
-              <h1>#Algorithm</h1>
-              <hr class="small">
+            <div class="posts-heading">
+                <h1 align="center">leetcode系列3 q9 Palindrome Number</h1>
+                
+                  
+                    <h2 align="center" class="posts-subheading">作者：王呈飞</h2>
+                  
+                
+                
             </div>
           </div>
         </div>
@@ -294,135 +354,107 @@ autocomplete('#aa-search-input',
     </div>
   </header>
 
+
     
-  <div class="container" role="main">
+<div class="container" role="main" itemscope itemtype="http://schema.org/Article">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            
+            
+              
+            <article role="main" class="blog-post" itemprop="articleBody" id="content">
+                
+
+                
+
+<p>###这题是回文数判断，最可能想到的字符串翻转比对，但是题目限制了不要使用字符串</p>
+
+<p><a href="https://leetcode.com/problems/palindrome-number/" title="leetcode问题链接">leetcode问题链接</a></p>
+
+<h4 id="1-palindrome-number">#1. Palindrome Number</h4>
+
+<p>CATEGORY:EASY</p>
+
+<p>Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.</p>
+
+<p>Example 1:</p>
+
+<p>Input: 121
+Output: true</p>
+
+<p>Example 2:</p>
+
+<p>Input: -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.</p>
+
+<p>Example 3:</p>
+
+<p>Input: 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+Follow up:</p>
+
+<p>Coud you solve it without converting the integer to a string?</p>
+
+<h5 id="我的答案">我的答案：</h5>
+
+<pre><code class="language-java">class Solution {
+    public boolean isPalindrome(int x) {
+		//负数不可能是回文数,10的倍数且不为零的数不可能是回文数
+        if(x&lt;0||(x%10==0 &amp;&amp; x!=0)){
+            return false;
+        }
         
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="https://www.felixwang.io/posts/algorithm-leetcode-3-q9-palindrome-number/">
-                <h2 class="post-title">leetcode系列3 q9 Palindrome Number</h2>
+        int revertedNumber = 0;
+		//当未翻转数x大于已经翻转的数时，继续从x的尾数开始翻转
+        while(x&gt;revertedNumber){
+            revertedNumber = revertedNumber*10 + x%10;
+            x /= 10;
+        }
+        
+		//当输入为偶数位时，未翻转数和翻转数两者相等时即输入为回文数，当输入为奇数位时，翻转数比未翻转数多一个中间位的尾数，翻转数/10后再对比
+        return x==revertedNumber||x==revertedNumber/10;
+        
+    }
+}
+</code></pre>
 
-                
-                  <h3 class="post-subtitle">
-                    作者：王呈飞
-                  </h3>
-                
-              </a>
-
-              <p class="post-meta">
-                Posted on April 29, 2019
-              </p>
-              <div class="post-entry">
-                
-                  ###这题是回文数判断，最可能想到的字符串翻转比对，但是题目限制了不要使用字符串 leetcode问题链接 #1. Palindrome Number CATEGORY:EASY Determine whether an integer is a palindrome. An integer is a palindrome when it
-                  <a href="https://www.felixwang.io/posts/algorithm-leetcode-3-q9-palindrome-number/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                  
-                    #<a href="https://www.felixwang.io/tags/algorithm/">algorithm</a>&nbsp;
-                  
-                    #<a href="https://www.felixwang.io/tags/leetcode/">leetcode</a>&nbsp;
-                  
-                    #<a href="https://www.felixwang.io/tags/palindrome/">palindrome</a>&nbsp;
-                  
-                    #<a href="https://www.felixwang.io/tags/revert/">revert</a>&nbsp;
-                  
-                </span>
-              
+<p>思路:参考leecode给出的答案，先过滤一定不是回文数的值，例如负数和非0的10的倍数；然后通过只翻转一半，来避免翻转数字越界，接下来只要对比这已经翻转的一半和未翻转的一半是否相等即可，判断是否翻转一半的条件是剩余未翻转的数是否比翻转的数字大，需要注意的是，在输入值得位数是偶数和奇数的情况下处理逻辑稍有不同。</p>
 
             </article>
-          
-            <article class="post-preview">
-              <a href="https://www.felixwang.io/posts/algorithm-leetcode-2-q7-reverse-integer/">
-                <h2 class="post-title">leetcode系列2 q7 Reverse Integer</h2>
 
+            <ul class="pager blog-pager">
                 
-                  <h3 class="post-subtitle">
-                    万事开头难，所以从简单的开始
-                  </h3>
+                <li class="previous">
+                    <a href="https://www.felixwang.io/posts/algorithm-leetcode-2-q7-reverse-integer/" data-toggle="tooltip" data-placement="top" title="leetcode系列2 q7 Reverse Integer">&larr; Previous Post</a>
+                </li>
+                 
+            </ul>
+            
+            <div>
+                 
+                <h2>See Also</h2>
+                <ul>
+                    
+                    <li><a href="/posts/algorithm-leetcode-2-q7-reverse-integer/">leetcode系列2 q7 Reverse Integer</a></li>
+                    
+                    <li><a href="/posts/algorithm-leetcode-1-q1-two-sum/">leetcode系列1 q1 Two Sum</a></li>
+                    
+                </ul>
                 
-              </a>
-
-              <p class="post-meta">
-                Posted on March 30, 2019
-              </p>
-              <div class="post-entry">
-                
-                  这是一个新的系列，主要记录一些自己在leetcode上的刷题记录，个人水平有限，难度先从easy开始 leetcode问题链接 #1. Reverse Integer CATEGORY:EASY Given a 32-bit signed
-                  <a href="https://www.felixwang.io/posts/algorithm-leetcode-2-q7-reverse-integer/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
+            </div>
+            
+            
+            
               
-                <span class="post-meta">
-                  
-                    #<a href="https://www.felixwang.io/tags/algorithm/">algorithm</a>&nbsp;
-                  
-                    #<a href="https://www.felixwang.io/tags/leetcode/">leetcode</a>&nbsp;
-                  
-                    #<a href="https://www.felixwang.io/tags/integer/">integer</a>&nbsp;
-                  
-                    #<a href="https://www.felixwang.io/tags/overflow/">overflow</a>&nbsp;
-                  
-                </span>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.felixwang.io/posts/algorithm-leetcode-1-q1-two-sum/">
-                <h2 class="post-title">leetcode系列1 q1 Two Sum</h2>
-
-                
-                  <h3 class="post-subtitle">
-                    万事开头难，所以从简单的开始
-                  </h3>
-                
-              </a>
-
-              <p class="post-meta">
-                Posted on March 28, 2019
-              </p>
-              <div class="post-entry">
-                
-                  这是一个新的系列，主要记录一些自己在leetcode上的刷题记录，个人水平有限，难度先从easy开始 leetcode问题链接 #1. Two Sum CATEGORY:EASY Given an array of
-                  <a href="https://www.felixwang.io/posts/algorithm-leetcode-1-q1-two-sum/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                  
-                    #<a href="https://www.felixwang.io/tags/algorithm/">algorithm</a>&nbsp;
-                  
-                    #<a href="https://www.felixwang.io/tags/leetcode/">leetcode</a>&nbsp;
-                  
-                    #<a href="https://www.felixwang.io/tags/hashmap/">hashmap</a>&nbsp;
-                  
-                </span>
-              
-
-            </article>
-          
+            </div>
+            
+            
         </div>
-        
-      </div>
-    <div align="center" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-
-        
-        
-        
-        
-      </div>
     </div>
-  </div>
+    </section>
+</div>
 
     <footer>
   <div class="container">

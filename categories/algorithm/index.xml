@@ -6,10 +6,19 @@
     <description>Recent content in Algorithm on Felix Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 30 Mar 2019 02:25:20 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2019 17:25:20 +0800</lastBuildDate>
     
 	<atom:link href="https://www.felixwang.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>leetcode系列3 q9 Palindrome Number</title>
+      <link>https://www.felixwang.io/posts/algorithm-leetcode-3-q9-palindrome-number/</link>
+      <pubDate>Mon, 29 Apr 2019 17:25:20 +0800</pubDate>
+      
+      <guid>https://www.felixwang.io/posts/algorithm-leetcode-3-q9-palindrome-number/</guid>
+      <description>###这题是回文数判断，最可能想到的字符串翻转比对，但是题目限制了不要使用字符串 leetcode问题链接 #1. Palindrome Number CATEGORY:EASY Determine whether an integer is a palindrome. An integer is a palindrome when it</description>
+    </item>
     
     <item>
       <title>leetcode系列2 q7 Reverse Integer</title>
